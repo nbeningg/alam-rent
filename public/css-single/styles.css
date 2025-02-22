@@ -1,0 +1,101 @@
+/* Gaya tambahan */
+.main-header {
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 50px; /* Menambahkan margin bawah pada header */
+}
+
+.gallery_taital {
+    margin: 30px 0; /* Menambahkan jarak di atas dan bawah teks "Detail Barang" */
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    margin-top: 50px; /* Menambahkan margin atas pada footer */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+   
+}
+
+.car-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 1px solid #fe5b29;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 50px; /* Menambahkan margin bawah pada kotak untuk jarak dengan footer */
+}
+
+.car-image {
+    flex: 0 0 40%;
+    margin-right: 30px;
+}
+
+.car-info {
+    flex: 0 0 60%;
+    padding: 0 20px;
+}
+
+.car-img {
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease; /* Menambahkan transisi pada gambar */
+}
+
+.car-img:hover {
+    transform: scale(1.1); /* Memperbesar gambar saat dihover */
+}
+
+.car-info h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.car-info h4 {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.booking-form {
+    margin-top: 20px;
+}
+
+.booking-form label {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.booking-form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booking-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Animasi untuk hover */
+}
+
+.booking-form button[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
